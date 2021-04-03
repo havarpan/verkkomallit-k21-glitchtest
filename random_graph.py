@@ -23,7 +23,7 @@ def create_graph():
         
     return G
 
-def get_json():
+def json_graph():
     return cyto_json(create_graph())
   
 # if called from console  
