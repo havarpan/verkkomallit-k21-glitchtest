@@ -1,7 +1,7 @@
 // pidä kaikki ennallaan tämän rivin alla
 
 const getJson = async function() {
-  const data = await fetch("/ryhma1", {
+  const data = await fetch("/ryhma2", {
     method: "POST"
   });
   const postedJson = JSON.parse(await data.json());

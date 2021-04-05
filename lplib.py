@@ -22,3 +22,7 @@ def solve_lp(lp):
 # ryhmä 1
 def ryhma1():
     return solve_lp(my_lp_problem())
+
+# ryhmä 2
+def ryhma2():
+    return solve_lp(my_lp_problem())
