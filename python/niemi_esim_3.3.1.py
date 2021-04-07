@@ -19,3 +19,11 @@ my_lp += 2*x1 + 8*x2 - 2*x3 - 5*x4 + x5 <= 0
 
 # solve
 my_lp.solve()
+
+# tämä on yksi tapa saada muuttujatkin näkyviin
+# ehkä pieni mutka siinä, muttei se paljon haittaa
+var, prob = pulp.LpProblem.from_dict(my_lp.to_dict())
+mydict = {'objective': prob.objective.value()}
+for x in var:
+    mydict[x] = var[x].value()
+print(mydict)
