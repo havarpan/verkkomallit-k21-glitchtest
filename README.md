@@ -5,7 +5,7 @@ Juuressa (Terminal: /app):
     > python/: kotihakemistot (ryhmittäin)
     - .env: mahdolliset salasanat ym. piilotettava data
     - README.md: tämä tiedosto
-    - glitch.json: glitch-työtilan käynnistystiedosto
+    - glitch.json: tämän glitch-työtilan käynnistystiedosto
     - lplib.py: kutsuu ryhmien funktioita
     - random_graph.py: etusivu
     - requirements.txt: työtilaan tuodut python-kirjastot
