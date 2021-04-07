@@ -3,6 +3,7 @@ Tässä hakemistossa:
  - Niemen esimerkki 3.3.1
  - Diet-esimerkki
  - Ryhmien omat koodihakemistot.
+ - blahblahtest
 
 Diet modattu [täältä](https://github.com/tirthajyoti/Optimization-Python)
 
