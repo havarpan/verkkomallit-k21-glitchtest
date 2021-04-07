@@ -1,6 +1,6 @@
 import pulp
 
-def my_lp_problem():
+def ryhma2_lp_problem():
 
     # Niemi, esim. 3.2.1
   
